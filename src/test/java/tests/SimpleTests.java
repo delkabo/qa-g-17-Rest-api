@@ -1,6 +1,5 @@
 package tests;
 
-import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -16,7 +15,7 @@ public class SimpleTests {
 //                .when()
 //                .get("https://reqres.in/api/users?page=2")
 //                .then()
-//                .body("data.last_name",is("Lawson"));
+//                .body("data.last_name",is("Lawson")); можно ли получить данные определенного человека?
 //    }
 
     @Test
