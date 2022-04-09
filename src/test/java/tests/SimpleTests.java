@@ -49,7 +49,7 @@ public class SimpleTests {
                 .statusCode(201);
     }
 
-    String userData1 = "{ \"name\": \"morpheus\", \"job\": \"zion resident\" }";
+    String userData1 = "{ \"name\": \"neo\", \"job\": \"zion resident\" }";
 
     @Test
     void updateUserTest() {
@@ -59,7 +59,7 @@ public class SimpleTests {
                 .when()
                 .post("https://reqres.in/api/users/2")
                 .then()
-                .body("name", is("morpheus"));
+                .body("name", is("neo"));
     }
 
     String userData2 = "{ \"email\": \"sydney@fife\" }";
