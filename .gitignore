@@ -1,0 +1,13 @@
+# Project exclude paths
+/.gradle/
+/build/
+/build/classes/java/test/
+.idea
+.gradle
+.allure
+idea
+build
+video
+out
+allure-results
+/.idea/
